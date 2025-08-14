@@ -1,0 +1,81 @@
+name: tapway
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # Logger
+  logger: ^2.0.2
+  
+  # Firebase
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.9.1
+  cloud_firestore: ^4.14.0
+  firebase_messaging: ^14.7.10
+  firebase_crashlytics: ^3.5.1
+  firebase_analytics: ^10.8.3
+  firebase_storage: ^11.6.0  # NEW: For ID image upload
+  
+  # State Management & DI
+  get: ^4.6.6
+  
+  # Location
+  geolocator: ^11.1.0
+  geocoding: ^4.0.0
+  
+  # Internationalization
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  
+  # Permissions
+  permission_handler: ^10.4.0
+  
+  # Accessibility
+  flutter_tts: ^3.6.3
+  speech_to_text: ^6.6.0
+  
+  # Notifications
+  flutter_local_notifications: ^15.1.1
+  
+  # Utilities
+  url_launcher: ^6.1.11
+  flutter_svg: ^2.0.7
+  uuid: ^3.0.7
+  logging: ^1.2.0
+  image_picker: ^1.0.4  # NEW: For image selection
+  path_provider: ^2.1.1 # NEW: For file handling
+  path: ^1.8.3         # NEW: For path operations
+  
+  # Form Validation
+  form_validator: ^2.1.1
+
+
+  # For design
+  font_awesome_flutter: ^10.7.0
+  
+  # Optional (you can keep these if you're using them)
+  provider: ^6.0.5
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
