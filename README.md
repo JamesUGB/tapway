@@ -1,6 +1,9 @@
 Tapway
 
-    - Overview Tapway is an app that lets you send an emergency request with one tap, sharing your exact location (latitude and longitude) to emergency services using GPS. It has a simple login system for different users and a map to show where you are.
+
+Overview 
+
+    -Tapway is an app that lets you send an emergency request with one tap, sharing your exact location (latitude and longitude) to emergency services using GPS. It has a simple login system for different users and a map to show where you are.
 
 Tapway makes it easy and quick to reach emergency services when you need them most.
 
