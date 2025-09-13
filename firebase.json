@@ -1,0 +1,40 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "tapway-emergency",
+          "appId": "1:12852607486:android:d6db3567e3992e0ec728af",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "tapway-emergency",
+          "configurations": {
+            "android": "1:12852607486:android:d6db3567e3992e0ec728af",
+            "web": "1:12852607486:web:ec0029b327cc8f0fc728af",
+            "windows": "1:12852607486:web:4c567976974f213ac728af"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint",
+        "npm --prefix \"$RESOURCE_DIR\" run build"
+      ]
+    }
+  ]
+}

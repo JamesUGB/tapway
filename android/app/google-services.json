@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "12852607486",
+    "project_id": "tapway-emergency",
+    "storage_bucket": "tapway-emergency.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12852607486:android:d6db3567e3992e0ec728af",
+        "android_client_info": {
+          "package_name": "com.example.tapway"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmJbDCUvVh2I1A2KWpdNTCWLbH1iX_XzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
