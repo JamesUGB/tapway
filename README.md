@@ -23,7 +23,7 @@ Features
 
     - One-tap emergency request with location sharing
 
-    - Real-time GPS for accurate location data
+    - Pinpoint GPS for accurate location data
 
     - Login for users and emergency services
 
